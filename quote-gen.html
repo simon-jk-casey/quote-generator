@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <title>Quote Generator</title>
+
+  <!--STYLESHEETS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Atomic+Age|Press+Start+2P|Telex" rel="stylesheet">
+  <link rel="stylesheet" href="quote-gen-style.css">
+
+  <!--SCRIPTS-->
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+  <script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
+  <script type="text/javascript" src="quote-gen.js"></script>
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="row">
+      <div class="twelve columns" id="titlebar">
+        <p>QUOTE GENERATOR</p>
+      </div>
+    </div>
+
+    <div class="row" id="quoteField">
+      <div class="twelve columns"></div>
+        <p id="quote_Text"></p>
+        <p id="quote_Author"></p>
+        <p id="quote_Link"></p>
+      </div>
+    </div>
+
+    <div class="row" id="buttonbar">
+      <div class="twelve columns">
+        <button type="button" name="generate" id="gen-button">GENERATE</button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="twelve columns" id="twitter"></div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
