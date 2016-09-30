@@ -1,0 +1,33 @@
+#quote_Text {
+  font-family: 'Atomic Age', cursive;
+  font-size: 1.5em;
+}
+#quote_Author {
+  font-family: 'Telex', sans-serif;
+}
+#quote_Link {
+  font-family: 'Telex', sans-serif;
+  font-size: 0.75em;
+}
+#titlebar {
+  background-color: black;
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+  text-align: center;
+  padding-top: 1em;
+}
+#quoteField {
+  background-color: lightgrey;
+  text-align: center;
+  padding-top: 1em;
+}
+#buttonbar {
+  position: relative;
+  text-align: center;
+  margin-top: 1em;
+}
+#twitter {
+  position: relative;
+  text-align: center;
+  margin-top: 1em;
+}
